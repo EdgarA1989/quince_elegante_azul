@@ -41,12 +41,12 @@
   },
 
   "fotos": [
-    "img/foto1.jpg",
-    "img/foto2.jpg",
-    "img/foto3.jpg",
-    "img/foto4.jpg",
-    "img/foto5.jpg",
-    "img/foto6.jpg"
+    "img/foto horizontal 1.png",
+    "img/foto vertical 1.png",
+    "img/foto vertical 2.png",
+    "img/foto vertical 3.png",
+    "img/foto vertical 4.png",
+    "img/foto horizontal 2.png"
   ],
 
   "footer": {
