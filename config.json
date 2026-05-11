@@ -1,0 +1,61 @@
+{
+  "nombre": "Valentina",
+  "frase": "Cada momento de esta noche lo viví pensando en vos.",
+  "fecha": "2025-10-18T21:00:00",
+  "fechaDisplay": "Sábado · 18 de Octubre · 2025",
+  "hora": "21:00 hs",
+
+  "bienvenida": {
+    "titulo": "Un momento único.",
+    "texto": "Quince años son el comienzo de todo. Quiero vivirlos rodeada de las personas que más quiero. Esta noche es nuestra."
+  },
+
+  "lugar": {
+    "nombre": "Salón Versalles",
+    "barrio": "Palermo · CABA",
+    "direccion": "Av. Santa Fe 3200, CABA",
+    "mapsUrl": "https://maps.google.com/?q=Av+Santa+Fe+3200+CABA"
+  },
+
+  "dresscode": {
+    "texto": "Formal / Cocktail",
+    "nota": "El azul y el plateado están reservados para la festejada."
+  },
+
+  "regalos": {
+    "texto": "Tu presencia es el mejor regalo. Si querés tener un gesto, te dejo mis datos.",
+    "alias": "valentina.garcia",
+    "cbu": "0000003100025264839001",
+    "banco": "Mercado Pago / cualquier banco"
+  },
+
+  "whatsapp": {
+    "numero": "5491155550000",
+    "mensaje": "¡Hola! Confirmo mi asistencia a los 15 de Valentina 🎉"
+  },
+
+  "musica": {
+    "src": "music/track.mp3",
+    "titulo": "A Thousand Years",
+    "artista": "Christina Perri"
+  },
+
+  "fotos": [
+    "img/foto1.jpg",
+    "img/foto2.jpg",
+    "img/foto3.jpg",
+    "img/foto4.jpg",
+    "img/foto5.jpg",
+    "img/foto6.jpg"
+  ],
+
+  "footer": {
+    "mensaje": "Gracias por ser parte de este momento.",
+    "firma": "Con amor, Valentina · 2025"
+  },
+
+  "tema": {
+    "acento": "#6baed6",
+    "acento2": "#c8d8e8"
+  }
+}
