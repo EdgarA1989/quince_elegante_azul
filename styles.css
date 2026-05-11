@@ -818,12 +818,13 @@ button { font-family: var(--font-body); cursor: pointer; border: none; backgroun
 }
 
 /* Primera y última foto ocupan todo el ancho, sin recorte */
-.galeria-item:nth-child(1),
-.galeria-item:nth-child(6) {
+.galeria-item:first-child,
+.galeria-item:last-child {
   grid-column: 1 / -1;
-  aspect-ratio: 16/7;
+  aspect-ratio: 16/9;
   background-size: contain;
   background-repeat: no-repeat;
+  background-color: #0d1428;
 }
 
 .galeria-item:hover {
