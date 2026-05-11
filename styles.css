@@ -598,6 +598,111 @@ button { font-family: var(--font-body); cursor: pointer; border: none; backgroun
 }
 
 /* ══════════════════════════════════════════════════
+   CALENDARIO
+   ══════════════════════════════════════════════════ */
+.calendario-section {
+  padding: 4.5rem 1.5rem;
+  text-align: center;
+}
+
+.calendario-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  max-width: 290px;
+  margin: 1.2rem auto 0;
+  overflow: hidden;
+}
+
+.cal-header {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: .5rem;
+  padding: 1rem 1rem .6rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.cal-mes {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text);
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+.cal-anio {
+  font-family: 'Jost', sans-serif;
+  font-size: .78rem;
+  font-weight: 300;
+  color: rgba(221,234,245,.45);
+}
+
+.cal-semana {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding: .55rem .6rem .2rem;
+}
+
+.cal-dow {
+  font-family: 'Jost', sans-serif;
+  font-size: .6rem;
+  font-weight: 500;
+  color: rgba(221,234,245,.3);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+
+.cal-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding: 0 .6rem .6rem;
+  gap: 2px;
+}
+
+.cal-dia {
+  font-family: 'Jost', sans-serif;
+  font-size: .72rem;
+  font-weight: 400;
+  color: rgba(221,234,245,.55);
+  text-align: center;
+  padding: .3rem 0;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cal-dia--vacio { opacity: 0; pointer-events: none; }
+.cal-dia--finde { color: rgba(221,234,245,.3); }
+
+.cal-dia--evento {
+  background: var(--accent);
+  color: #fff;
+  font-weight: 600;
+  animation: pulsoFecha 2.8s ease-in-out infinite;
+}
+
+@keyframes pulsoFecha {
+  0%, 100% { box-shadow: 0 0 8px rgba(107,174,214,.4), 0 0 0 0 rgba(107,174,214,.2); transform: scale(1); }
+  50%      { box-shadow: 0 0 18px rgba(107,174,214,.65), 0 0 0 6px rgba(107,174,214,0); transform: scale(1.12); }
+}
+
+.cal-label {
+  font-family: 'Jost', sans-serif;
+  font-size: .72rem;
+  font-weight: 300;
+  color: rgba(221,234,245,.45);
+  text-align: center;
+  padding: .6rem 1rem .9rem;
+  border-top: 1px solid var(--border);
+  letter-spacing: .04em;
+}
+
+/* ══════════════════════════════════════════════════
    REGALOS
    ══════════════════════════════════════════════════ */
 .regalos-section { text-align: center; }
