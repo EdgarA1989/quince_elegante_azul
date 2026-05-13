@@ -1019,6 +1019,7 @@ button { font-family: var(--font-body); cursor: pointer; border: none; backgroun
   color: var(--text);
   background: rgba(107,174,214,.08);
 }
+.btn-agendar--solo { width: 100%; justify-content: center; }
 
 /* ══════════════════════════════════════════════════
    FOOTER
